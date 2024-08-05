@@ -1,0 +1,9 @@
+
+<div class="container">
+  <h1> Stupid Coaching </h1>
+  <p> Question: <%= params[:question] %>  </p>
+  <ul>
+    <li><%= @answer %></li>
+  </ul>
+  <%= link_to 'Ask a new question', ask_path, class: 'btn btn-primary'  %>
+</div>
